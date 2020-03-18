@@ -12,6 +12,7 @@ github_username: fschuch
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "fschuch/aprenda.py"
 
+minimal_mistakes_skin: default
 locate: pt-BR
 timezone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -80,8 +81,7 @@ default_badges:
   colab: true
 
 # Everything below here should be left alone. Modifications may break fastpages
-future: true
-theme: minima
+future: false
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -98,7 +98,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima
+remote_theme: mmistakes/minimal-mistakes
 
 titles_from_headings:
   enabled:     true
