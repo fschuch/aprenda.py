@@ -10,13 +10,15 @@ title: Aprenda.py
 description: Aprenda programação em Python, e mais do que isso, solucione diversos problemas de engenharia por meio de ferramentas computacionais.
 github_username: fschuch
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "aprenda.py"
+github_repo: "fschuch/aprenda.py"
 
-locate : pt-BR
+minimal_mistakes_skin: default
+locate: pt-BR
+timezone: America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 author:
-  name: Felipe Schuch
-  email: "felipe.schuch@edu.pucrs.br"
+  name: Aprenda.py, por Felipe Schuch
+  email: "aprenda.py@outlook.com"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value.
@@ -49,7 +51,7 @@ minima:
     github: fschuch
 
 # Set this to true to get LaTeX math equation support
-use_math:
+use_math: true
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
@@ -79,25 +81,26 @@ default_badges:
   colab: true
 
 # Everything below here should be left alone. Modifications may break fastpages
-future: true
-theme: minima
+future: false
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache  - jekyll-feed
   - jekyll-octicons
   - jekyll-toc
   - jekyll-twitter-plugin
   - jekyll-relative-links
   - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-paginate
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima
+remote_theme: mmistakes/minimal-mistakes
 
 titles_from_headings:
   enabled:     true
@@ -107,8 +110,58 @@ titles_from_headings:
 highlighter: rouge
 markdown: kramdown
 kramdown:
-  math_engine: katex
+  math_engine: mathjax
   input: GFM
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+author:
+  name   : "Felipe N. Schuch"
+  avatar : "/assets/images/schuch.jpg"
+  bio    : "I'm a PhD Student working with CFD and STEM." #"Doutorando em Engenharia Mecânica, com ênfase em Fluidodinâmica Computacional. Entusiasta em código livre e no emprego de ferramentas computacionais na vida cotidiana. Praticante de Pilates."
+  location : "Porto Alegre, Brazil"
+  links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:felipe.schuch@edu.pucrs.br
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/fschuch"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fschuch"
+    # - label: "Linkedin"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/fschuch/"
+    # - label: "ResearchGate"
+    #   icon: "fab fa-fw fa-researchgate"
+    #   url: "https://www.researchgate.net/profile/Felipe_Schuch2"
+    # - label: "Orcid"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "http://orcid.org/0000-0002-6140-0273"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/fschuch"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fschuch"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/aprenda.py"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
