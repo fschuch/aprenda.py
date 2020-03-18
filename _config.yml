@@ -83,18 +83,17 @@ default_badges:
 # Everything below here should be left alone. Modifications may break fastpages
 future: false
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache  - jekyll-feed
   - jekyll-octicons
   - jekyll-toc
   - jekyll-twitter-plugin
   - jekyll-relative-links
   - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-include-cache
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
@@ -159,3 +158,10 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/aprenda.py"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
