@@ -92,6 +92,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-include-cache
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
@@ -108,8 +111,51 @@ titles_from_headings:
 highlighter: rouge
 markdown: kramdown
 kramdown:
-  math_engine: katex
+  math_engine: mathjax
   input: GFM
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+author:
+  name   : "Felipe N. Schuch"
+  avatar : "/assets/images/schuch.jpg"
+  bio    : "I'm a PhD Student working with CFD and STEM." #"Doutorando em Engenharia Mecânica, com ênfase em Fluidodinâmica Computacional. Entusiasta em código livre e no emprego de ferramentas computacionais na vida cotidiana. Praticante de Pilates."
+  location : "Porto Alegre, Brazil"
+  links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:felipe.schuch@edu.pucrs.br
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/fschuch"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fschuch"
+    # - label: "Linkedin"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/fschuch/"
+    # - label: "ResearchGate"
+    #   icon: "fab fa-fw fa-researchgate"
+    #   url: "https://www.researchgate.net/profile/Felipe_Schuch2"
+    # - label: "Orcid"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "http://orcid.org/0000-0002-6140-0273"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/fschuch"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fschuch"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/aprenda.py"
