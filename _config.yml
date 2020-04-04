@@ -44,7 +44,7 @@ baseurl: "/aprenda.py" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     instagram: aprenda.py
-    github: fschuch
+    github: fschuch/aprenda.py
 
 # Set this to true to get LaTeX math equation support
 use_math:
@@ -53,7 +53,7 @@ use_math:
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist
-show_image: false
+show_image: true
 
 # Set this to true to display tags on each post
 show_tags: true
