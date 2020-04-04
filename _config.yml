@@ -44,7 +44,9 @@ baseurl: "/aprenda.py" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     instagram: aprenda.py
+    facebook: aprenda.py
     github: fschuch/aprenda.py
+  date_format: "%-d %b, %Y"
 
 # Set this to true to get LaTeX math equation support
 use_math:
