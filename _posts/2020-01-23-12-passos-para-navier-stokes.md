@@ -9,6 +9,8 @@ layout: post
 categories: [CFD, métodos numéricos, NumPy]
 ---
 
+![Escoamento em Cavidade](images/12-passos-escoamento-em-cavidade.png){:class="img-responsive"}
+
 # Introdução
 
 **CFD com Python**, também conhecido como os **12 passos para Navier-Stokes**, é um módulo prático para o aprendizado dos fundamentos de Dinâmica dos Fluidos Computacional (CFD, do Inglês *Computational Fluid Dynamics*) por meio de códigos que resolvem as equações diferenciais parciais que descrevem a física dos escoamentos.
@@ -74,7 +76,8 @@ Os passos 1 a 4 são em uma direção espacial (1D). Passos 5 a 10 são em duas 
 * [Passo 12](http://nbviewer.jupyter.org/github/fschuch/CFDPython-BR/blob/master/tarefas/15_Passo_12.ipynb)
 -- Resolve o escoamento em Canal com Navier–Stokes 2D.
 
-{% include info.html text="Clicar nos links nessa seção irá abrir cada Notebook pelo serviço `nbviewer`, que os apresenta na tela, porem não em forma executável. Para isso, consulte [Executar online](https://fschuch.github.io/blog/12-passos-para-navier-stokes/#executar-online)." %}
+**Nota:** Clicar nos links nessa seção irá abrir cada Notebook pelo serviço `nbviewer`, que os apresenta na tela, porem não em forma executável. Para isso, consulte [Executar online](https://fschuch.github.io/blog/12-passos-para-navier-stokes/#executar-online).
+{: .notice--warning}
 
 # Conteúdo complementar
 
