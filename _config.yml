@@ -45,7 +45,7 @@ minima:
   social_links:
     instagram: aprenda.py
     facebook: aprenda.py
-    github: fschuch/aprenda.py
+    github: fschuch
   date_format: "%-d %b, %Y"
 
 # Set this to true to get LaTeX math equation support
