@@ -9,7 +9,7 @@ layout: post
 categories: [CFD, métodos numéricos, NumPy]
 ---
 
-![Escoamento em Cavidade](images/12-passos-escoamento-em-cavidade.png){:class="img-responsive"}
+![Escoamento em Cavidade](images/12-passos-escoamento-em-cavidade.png)
 
 # Introdução
 
@@ -77,7 +77,6 @@ Os passos 1 a 4 são em uma direção espacial (1D). Passos 5 a 10 são em duas 
 -- Resolve o escoamento em Canal com Navier–Stokes 2D.
 
 **Nota:** Clicar nos links nessa seção irá abrir cada Notebook pelo serviço `nbviewer`, que os apresenta na tela, porem não em forma executável. Para isso, consulte [Executar online](https://fschuch.github.io/blog/12-passos-para-navier-stokes/#executar-online).
-{: .notice--warning}
 
 # Conteúdo complementar
 
@@ -88,4 +87,4 @@ Existem ainda duas outras versões do CFD com Python:
 
 A versão original foi ainda publicada em:
 
-* Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier-Stokes equations. _Journal of Open Source Education_, **1**(9), 21, https://doi.org/10.21105/jose.00021
+* Barba, Lorena A., and Forsyth, Gilbert F. (2018). CFD Python: the 12 steps to Navier-Stokes equations. _Journal of Open Source Education_, **1**(9), 21, [doi.org/10.21105/jose.00021](https://doi.org/10.21105/jose.00021)
