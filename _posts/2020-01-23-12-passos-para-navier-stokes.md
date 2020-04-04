@@ -9,7 +9,7 @@ layout: post
 categories: [CFD, métodos numéricos, NumPy]
 ---
 
-![Escoamento em Cavidade](images/12-passos-escoamento-em-cavidade.png)
+![](images/12-passos-escoamento-em-cavidade.png "Escoamento em Cavidade")
 
 # Introdução
 
