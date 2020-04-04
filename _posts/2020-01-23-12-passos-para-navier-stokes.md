@@ -1,11 +1,12 @@
 ---
 title: "CFD com Python: 12 Passos para Navier-Stokes"
-- toc: true
-- description: Este material lhe guiará, passo a passo, pelos fundamentos de Dinâmica dos Fluidos Computacional. Cada tarefa introduz tanto novos conceitos físicos sobre as equações de Navier-Stokes, quanto detalhes sobre a programação em Python que resolve as equações diferenciais parciais. Tudo isso de maneira interativa e online (nenhuma instalação é necessária).
-- comments: true
-- author: Felipe N. Schuch
-- image: images/12-passos-escoamento-em-cavidade.png
-- categories: [CFD, métodos numéricos, NumPy]
+toc: true
+description: Este material lhe guiará, passo a passo, pelos fundamentos de Dinâmica dos Fluidos Computacional. Cada tarefa introduz tanto novos conceitos físicos sobre as equações de Navier-Stokes, quanto detalhes sobre a programação em Python que resolve as equações diferenciais parciais. Tudo isso de maneira interativa e online (nenhuma instalação é necessária).
+comments: true
+author: Felipe N. Schuch
+image: images/12-passos-escoamento-em-cavidade.png
+layout: post
+categories: [CFD, métodos numéricos, NumPy]
 ---
 
 # Introdução
