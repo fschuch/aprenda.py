@@ -40,6 +40,8 @@ url: "https://fschuch.github.io" # the base hostname & protocol for your site, e
 #
 baseurl: "/aprenda.py" # the subpath of your site, e.g. "/blog".
 
+permalink: /:year/:title:output_ext
+
 # Github and twitter are optional:
 minima:
   social_links:
