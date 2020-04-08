@@ -9,11 +9,12 @@ layout: post
 categories: [variados]
 ---
 
+Essa é a primeira linha de código para esse blog:
+
 ```python
 print("Olá mundo!")
 ```
 
-Essa é a primeira linha de código para esse blog.
 
 O projeto *Aprenda.py* tem por objetivo incentivar e divulgar a resolução de problemas por meio de ferramentas computacionais. Nos últimos anos, a denominação STEAM tem se popularizado, vindo do inglês para:
 * *Science* (Ciência)
