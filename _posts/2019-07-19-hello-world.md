@@ -9,7 +9,7 @@ layout: post
 categories: [variados]
 ---
 
-``` Python
+```python
 print("Olá mundo!")
 ```
 
