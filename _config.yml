@@ -16,6 +16,8 @@ author:
   name: Aprenda.py, por F.N. Schuch e convidados
   email: "aprenda.py@outlook.com"
 
+lang: pt-BR
+
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value.
 url: "https://fschuch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -47,8 +49,6 @@ minima:
   social_links:
     instagram: aprenda.py
     facebook: aprenda.py
-    github: fschuch
-    twitter: fschuch
   date_format: "%-d %b, %Y"
 
 # Set this to true to get LaTeX math equation support
