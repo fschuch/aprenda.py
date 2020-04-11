@@ -4,3 +4,6 @@ pandas
 sympy
 matplotlib
 ipywidgets
+qrcode
+anastruc
+altair
