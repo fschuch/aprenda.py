@@ -5,5 +5,5 @@ sympy
 matplotlib
 ipywidgets
 qrcode
-anastruc
+anastruct
 altair
