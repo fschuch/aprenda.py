@@ -49,6 +49,7 @@ minima:
   social_links:
     instagram: aprenda.py
     facebook: aprenda.py
+    twitter: aprenda_py
   date_format: "%-d %b, %Y"
 
 # Set this to true to get LaTeX math equation support
