@@ -7,6 +7,6 @@ author: [Felipe N. Schuch, Mathias S. Tessmann]
 image: images/house.png
 layout: post
 categories: [Matemática Financeira, Pandas, Matplotlib]
+redirect_to:
+  - https://www.fschuch.com/blog/2020/04/11/alugar-economizar-e-pagar-a-vista-ou-financiar-um-imovel-um-estudo-de-caso/
 ---
-
-Atenção: Essa postagem foi migrada para o nosso novo endereço, veja todos os detalhes em https://www.fschuch.com/blog/2020/04/11/alugar-economizar-e-pagar-a-vista-ou-financiar-um-imovel-um-estudo-de-caso/
